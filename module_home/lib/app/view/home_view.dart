@@ -8,7 +8,7 @@ class HomeView  extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Home Page"),),
+      appBar: AppBarWidget.getAppBar(title: "Home View"),
       body: Stack(
         children: [
           HeaderWidget(allowLogout: true, function: _logout)
