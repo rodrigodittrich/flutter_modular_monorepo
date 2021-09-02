@@ -12,9 +12,6 @@ dependencies:
     sdk: flutter
   
   flutter_modular: ^3.4.1+1
-  connectivity: ^3.0.3
-  #bloc_pattern: ^3.0.0
-  #rxdart: ^0.26.0
 
 dev_dependencies:
   flutter_test:
