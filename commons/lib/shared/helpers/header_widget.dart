@@ -6,8 +6,9 @@ class HeaderWidget extends StatelessWidget {
   final bool allowLogout;
   final double percentHeight;
   final Function? function;
+  final String? username;
 
-  HeaderWidget({this.allowLogout = false, this.percentHeight = Defaults.percentHeightHeader, this.function});
+  HeaderWidget({this.allowLogout = false, this.percentHeight = Defaults.percentHeightHeader, this.function, required this.username});
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +33,7 @@ class HeaderWidget extends StatelessWidget {
                 fit: FlexFit.loose,
                 child: FittedBox(
                   child: Text(
-                    "User Name",
+                    username!,
                     style: TextStyle(fontSize: 28, color: Colors.white, fontStyle: FontStyle.normal),
                   ),
                 ),

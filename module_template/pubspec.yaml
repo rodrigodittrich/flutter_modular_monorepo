@@ -1,4 +1,4 @@
-name: core
+name: module_template
 description: A new Flutter package project.
 version: 0.0.1
 homepage:
@@ -13,20 +13,18 @@ dependencies:
     sdk: flutter
 
   commons_dependencies:
-    path: '../commons_dependencies'
-  module_login:
-    path: "../module_login" 
-  module_home:
-    path: "../module_home" 
-  module_counter:
-    path: "../module_counter"
-  module_template:
-    path: "../module_template"
+    path: "../commons_dependencies"
+  commons:
+    path: "../commons"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
 flutter:
 
   # To add assets to your package, add an assets section, like this:

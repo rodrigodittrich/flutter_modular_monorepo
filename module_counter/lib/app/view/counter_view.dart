@@ -14,7 +14,7 @@ class CounterView extends StatelessWidget {
       appBar: AppBarWidget.getAppBar(title: "Template View"),
       body: Column(
         children: [
-          HeaderWidget(allowLogout: true, function: _logout),
+          HeaderWidget(allowLogout: true, function: _logout, username: "User"),
           SizedBox(height: 200,),
           StreamBuilder<int?>(
             stream: _counterController.counterOut,

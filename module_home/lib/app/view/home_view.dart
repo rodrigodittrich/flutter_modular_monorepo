@@ -14,7 +14,7 @@ class HomeView extends StatelessWidget {
       body: Container(
         child: Column(
           children: [
-            HeaderWidget(allowLogout: true, function: _logout),
+            HeaderWidget(allowLogout: true, function: _logout, username: "User"),
           ],
         ),
       ) //PageList(),
