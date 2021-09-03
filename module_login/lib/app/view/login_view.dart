@@ -10,17 +10,21 @@ class LoginView  extends StatelessWidget {
       appBar: AppBar(title: Text("Login Screen"),),
       body: Container(
         color: Colors.green,
-        child: GestureDetector(
-          child: Center(
-            child: Container(
-              color: Colors.blue[500],
-              child: Text("Login"),
-            ),
-          ),
-          onTap: () {
-            print("Login");
-            Modular.to.navigate('/home');
-          },
+        child: Column(
+          children: [
+            GestureDetector(
+              child: Center(
+                child: Container(
+                  color: Colors.blue[500],
+                  child: Text("Login"),
+                ),
+              ),
+              onTap: () {
+                print("Login");
+                Modular.to.navigate('/home');
+              },
+            )
+          ],
         ),
       ),      
     );

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_modular/flutter_modular.dart';
+import 'package:commons_dependencies/commons_dependencies.dart';
 
 class AppWidget extends StatelessWidget {
   final String initialRoute;

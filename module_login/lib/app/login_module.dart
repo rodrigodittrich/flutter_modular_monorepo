@@ -1,4 +1,4 @@
-import 'package:flutter_modular/flutter_modular.dart';
+import 'package:commons_dependencies/commons_dependencies.dart';
 import 'package:module_login/app/view/login_view.dart';
 
 class LoginModule extends Module {

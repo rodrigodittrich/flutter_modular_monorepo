@@ -18,6 +18,8 @@ dependencies:
     path: "../module_login" 
   module_home:
     path: "../module_home" 
+  module_template:
+    path: "../module_template"
 
 dev_dependencies:
   flutter_test:
